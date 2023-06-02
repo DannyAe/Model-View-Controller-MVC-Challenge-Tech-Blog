@@ -1,0 +1,64 @@
+/* reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* apply styles to the wrapper div */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* apply styles to the header */
+header.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* apply styles to the nav */
+nav.nav {
+    display: flex;
+    align-items: center;
+}
+
+/* apply styles to the nav links */
+nav.nav a.link {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+nav.nav a.link:hover {
+    color: #666;
+}
+
+/* apply styles to the logout link */
+nav.nav a#logout {
+    color: red;
+}
+
+/* apply styles to the app title */
+h1.app-title {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* apply styles to the main content */
+main {
+    padding: 20px;
+}
